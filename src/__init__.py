@@ -1,0 +1,38 @@
+BOARD_IMAGE = "./images/board.png"
+PIECE_IMAGES = "./images/pieces/"
+RANKS = ('1', '2', '3', '4', '5', '6', '7', '8')
+FILES = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h')
+POSITIONS = {
+        'wr1': FILES[0]+RANKS[0],
+        'wn1': FILES[1]+RANKS[0],
+        'wb1': FILES[2]+RANKS[0],
+        'wq': FILES[3]+RANKS[0],
+        'wk': FILES[4]+RANKS[0],
+        'wb2': FILES[5]+RANKS[0],
+        'wn2': FILES[6]+RANKS[0],
+        'wr2': FILES[7]+RANKS[0],
+        'wp1': FILES[0]+RANKS[1],
+        'wp2': FILES[1]+RANKS[1],
+        'wp3': FILES[2]+RANKS[1],
+        'wp4': FILES[3]+RANKS[1],
+        'wp5': FILES[4]+RANKS[1],
+        'wp6': FILES[5]+RANKS[1],
+        'wp7': FILES[6]+RANKS[1],
+        'wp8': FILES[7]+RANKS[1],
+        'bp1': FILES[0]+RANKS[6],
+        'bp2': FILES[1]+RANKS[6],
+        'bp3': FILES[2]+RANKS[6],
+        'bp4': FILES[3]+RANKS[6],
+        'bp5': FILES[4]+RANKS[6],
+        'bp6': FILES[5]+RANKS[6],
+        'bp7': FILES[6]+RANKS[6],
+        'bp8': FILES[7]+RANKS[6],
+        'br1': FILES[0]+RANKS[7],
+        'bn1': FILES[1]+RANKS[7],
+        'bb1': FILES[2]+RANKS[7],
+        'bq': FILES[3]+RANKS[7],
+        'bk': FILES[4]+RANKS[7],
+        'bb2': FILES[5]+RANKS[7],
+        'bn2': FILES[6]+RANKS[7],
+        'br2': FILES[7]+RANKS[7],
+}
