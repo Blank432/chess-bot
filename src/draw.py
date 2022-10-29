@@ -40,7 +40,7 @@ class Board():
         if not player:
             piece = piece.rotate(180)
         
-        board.paste(piece, (place[1]*self.TILE, place[0]*self.TILE), piece)
+        board.paste(piece, ((place[1])*self.TILE, place[0]*self.TILE), piece)
         return board
 
 
